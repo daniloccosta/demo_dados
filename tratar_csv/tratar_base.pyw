@@ -4,16 +4,6 @@ from tkinter import messagebox
 from sys import exit
 import os
 
-# A missão é remover todas as linhas do arquivo .csv
-# que não correspondam ao padrão de linha com dados
-# de produtos.
-# Após tratamento, o novo arquivo csv será utilizado
-# como fonte de dados em planilha dinamica excel
-
-# Para facilitar uso pelo usuario final, o script usa
-# uma interface grafica com o pacote tkinter e é 
-# convertido para executaval com uso da biblioteca pyinstaler
-
 def linhaDeItem(idlinha):
     xlen = len(idlinha) - 1
     return (idlinha[1:7] == "-[-[-[" and idlinha[xlen].isnumeric())
