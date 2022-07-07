@@ -5,4 +5,4 @@ A missão é remover todas as linhas do arquivo .csv que não correspondam ao pa
 O Arquivo tratado será usado como fonte de dados em uma planilha excel com tabelas dinâmicas.
 
 
-# Para facilitar uso pelo usuario final, o script usa uma interface grafica com o pacote tkinter e foi convertido para executaval com uso da biblioteca pyinstaler
+# Para facilitar uso pelo usuario final, o script usa uma interface gráfica com o pacote tkinter e foi convertido para executaval com uso da biblioteca pyinstaler
